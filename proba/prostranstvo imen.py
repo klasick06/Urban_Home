@@ -7,10 +7,9 @@ def test():
     print('test:', a, b)
 
 
-def test_2():
-    x, y, z = 10, 15, 9
-    print('test_2:', x, y, z)
+def test_2(x, y, z):
+    print(x, y, z)
 
 
 test()
-test_2()
+test_2(10, 11, 20)
